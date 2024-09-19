@@ -38,18 +38,18 @@ To get started with the materials in this repository, follow these steps:
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate
 
-Usage
+# Usage
 Explore the different chapters and projects as you learn Python. Each folder corresponds to a chapter or topic from the book, containing code snippets and exercises.
 
 Feel free to run the scripts and modify them to see how changes affect the output. This hands-on approach will help reinforce your learning!
 
-Contributing
+# Contributing
 If you'd like to contribute, feel free to fork the repository and submit a pull request. I welcome feedback and suggestions!
 
-License
+# License
 This project is open-source and available under the MIT License.
 
-Acknowledgements
+# Acknowledgements
 Python Crash Course by Eric Matthes for providing a comprehensive introduction to Python.
 
 
