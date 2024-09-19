@@ -21,7 +21,7 @@ while polling_active:
         polling_active = False
 
 # polling is complete show results.
-print("\n*** Poll Results ***")
+print("\n\t\t*** Poll Results ***")
 for name, response in responses.items():
     print("{} would like to climb {}.".format(name.title(), response.title()))
 
