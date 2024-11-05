@@ -1,0 +1,10 @@
+			# Asynchronous Comprehensions
+
+result = [i async for i in aiter() if i % 2]
+
+result = [await fun() for fun in funcs]
+
+set comprehensions: {i async for i in agen()};
+list comprehensions: [i async for i in agen()];
+dict comprehensions: {i: i ** 2 async for i in agen()}
+generator expression: (i ** 2 async for i in agen())

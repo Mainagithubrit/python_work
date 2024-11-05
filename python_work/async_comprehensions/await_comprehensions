@@ -1,0 +1,19 @@
+		# This is Await Comprehensions Syntax
+
+result = [await fun() for fun in funcs] # list
+result = {await fun() for fun in funcs} # set
+result = {fun: await fun() for fun in funcs} # dictionary
+
+result = [await fun() for fun in funcs if await smth] # list
+result = {await fun() for fun in funcs if await smth} # set
+result = {fun: await fun() for fun in funcs if await smth} # dictionary
+
+result = [await fun() async for fun in funcs] # list
+result = {await fun() async for fun in funcs} # set
+result = {fun: await fun() async for fun in funcs} # dictionary
+
+result = [await fun() async for fun in funcs if await smth] # list
+result = {await fun() async for fun in funcs if await smth} # set
+result = {fun: await fun() async for fun in funcs if await smth} # dictionary
+
+	This is only valid in async def function body
