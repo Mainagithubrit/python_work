@@ -15,5 +15,3 @@ for win_lot in winning_lottery:
 
 print("\nTodays winning lottery number and letters are: ")
 print(winning_lottery)
-
-

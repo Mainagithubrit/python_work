@@ -1,0 +1,5 @@
+In Python you can loop through lists and dictionaries easily
+In Python you can count using range()
+In Python you can ineherit from classes
+In Python you can create variables easily
+In Python you can create if statements using if, elif and else
