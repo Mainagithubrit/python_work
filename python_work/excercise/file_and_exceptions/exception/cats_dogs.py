@@ -3,7 +3,8 @@ def cats_dogs(filename):
         with open(filename) as file_object:
             contents = file_object.read()
     except FileNotFoundError:
-        print("Sorry, the file is not found")
+        # print("Sorry, the file is not found")
+        pass
     else:
         if filename == 'cats.txt':
             print('\nThis are cat names:')
